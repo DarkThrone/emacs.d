@@ -35,6 +35,7 @@ site-lisp/package/
 /eshell
 /.cask/
 /.sx/
+# Some more changes
 /org-clock-save.el
 /ditaa*.jar
 /ido.last
