@@ -71,21 +71,21 @@
 
 (require 'init-compile)
 (require 'init-crontab)
-(require 'init-textile)
+;(require 'init-textile)
 (require 'init-markdown)
-(require 'init-csv)
-(require 'init-erlang)
+;(require 'init-csv)
+;(require 'init-erlang)
 (require 'init-javascript)
 (require 'init-php)
 (require 'init-org)
-(require 'init-nxml)
+;(require 'init-nxml)
 (require 'init-html)
 (require 'init-css)
-(require 'init-haml)
-(require 'init-python-mode)
-(require 'init-haskell)
-(require 'init-ruby-mode)
-(require 'init-rails)
+;(require 'init-haml)
+;(require 'init-python-mode)
+;(require 'init-haskell)
+;;(require 'init-ruby-mode)
+;;(require 'init-rails)
 (require 'init-sql)
 
 (require 'init-paredit)
@@ -101,8 +101,8 @@
 
 (require 'init-misc)
 
-(require 'init-dash)
-(require 'init-ledger)
+;; (require 'init-dash)
+;;(require 'init-ledger)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)

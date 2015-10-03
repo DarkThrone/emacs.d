@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Globant Scrum
+# key: glbsc
+# binding: direct-keybinding
+# --
+* `(format-time-string "%m/%d")`
+* Seba $0
+* Leo
+* Gero
+* Ari

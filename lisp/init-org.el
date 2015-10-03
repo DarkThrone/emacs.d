@@ -6,11 +6,15 @@
   (autoload 'org-mac-grab-link "org-mac-link" nil t)
   (require-package 'org-mac-iCal))
 
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
 (define-key global-map (kbd "C-c l") 'org-store-link)
 (define-key global-map (kbd "C-c a") 'org-agenda)
 
 ;; Various preferences
 (setq org-log-done t
+      org-src-fontify-natively t
       org-completion-use-ido t
       org-edit-timestamp-down-means-later t
       org-archive-mark-done nil
@@ -323,16 +327,17 @@ typical word processor."
   (org-babel-do-load-languages
    'org-babel-load-languages
    '((R . t)
-     (ditaa . t)
+                                        ;     (ditaa . t)
      (dot . t)
      (emacs-lisp . t)
      (gnuplot . t)
-     (haskell . nil)
+                                        ;     (haskell . nil)
      (latex . t)
-     (ledger . t)
+     (js t)
+                                        ;     (ledger . t)
      (ocaml . nil)
-     (octave . t)
-     (python . t)
+                                        ;     (octave . t)
+                                        ;     (python . t)
      (ruby . t)
      (screen . nil)
      (sh . t)
